@@ -1,0 +1,21 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="horizontal"
+	android:background="@android:color/black" >
+	<FrameLayout 
+	    android:id="@+id/search_results_container"
+	    android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight=".4">
+	    
+	</FrameLayout>
+	<FrameLayout 
+	    android:id="@+id/detailed_info_container"
+	    android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:layout_weight=".6">
+	    
+	</FrameLayout>
+</LinearLayout>

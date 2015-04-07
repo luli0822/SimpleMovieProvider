@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">SimpleMovieProvider</string>
+	<string name="search_hint">Search here &#8230;</string>
+	<string name="empty_result_message">No results found.</string>
+	<string name="demo_img">LodaingImage</string>
+	<string name="dummy_text">Loading&#8230;</string>
+</resources>

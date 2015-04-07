@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black" >
+    <LinearLayout 
+        android:id="@+id/movie_detail_container"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_gravity="bottom">
+	    <TextView 
+			android:id="@+id/movie_title_label"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:padding="10dp"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:text="@string/dummy_text"
+			android:textColor="#ffffff"/>
+	    <TextView 
+			android:id="@+id/movie_description_label"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="5dp"
+			android:padding="5dp"
+			android:textSize="13sp"
+			android:textColor="#ffffff"
+			android:text="@string/dummy_text"/>
+    </LinearLayout>
+    <ImageView 
+	        android:id="@+id/movie_poster"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"/>
+	<ProgressBar 
+	    android:id="@+id/loading_progress_bar"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		style="@android:style/Widget.ProgressBar.Inverse"
+		android:layout_gravity="center"
+		android:visibility="gone"/>
+    
+</FrameLayout>
